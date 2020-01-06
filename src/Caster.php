@@ -5,7 +5,7 @@ namespace Damonto\ResponseCaster;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Http\Response;
 
-class ResponseCaster
+class Caster
 {
     /**
      * Wrap response
@@ -26,7 +26,7 @@ class ResponseCaster
     }
 
     /**
-     * Respond with an created response
+     * Respond with a created response
      *
      * @param   string       $location
      * @param   null|string  $content
