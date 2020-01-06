@@ -1,0 +1,22 @@
+{
+    "name": "damonto/response-caster",
+    "description": "A laravel response caster",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damon To",
+            "email": "damon.tu@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Damonto\\ResponseCaster\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "laravel/framework": "^5.5"
+    }
+}
