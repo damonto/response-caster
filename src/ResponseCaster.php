@@ -7,7 +7,7 @@ trait ResponseCaster
     /**
      * Response
      *
-     * @return  Damonto\ResponseCaster\Caster
+     * @return  \Damonto\ResponseCaster\Caster
      */
     public function response()
     {
