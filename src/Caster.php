@@ -68,14 +68,11 @@ class Caster
     /**
      * Respond with a no content response.
      *
-     * @param   string|null  $conten
-     *
      * @return \Illuminate\Http\Response
      */
-    public function noContent(?string $content = null)
+    public function noContent()
     {
-        return (new Response)->setStatusCode(204)
-            ->setContent($this->wrap(true, 204, $content));
+        return (new Response)->setStatusCode(204);
     }
 
     /**
