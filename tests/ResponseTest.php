@@ -3,7 +3,7 @@
 namespace Damonto\ResponseCaster\Tests;
 
 use Damonto\ResponseCaster\ResponseCaster;
-use Illuminate\Http\Resources\Json\Resource;
+use Illuminate\Http\Resources\Json\JsonResource;
 use PHPUnit\Framework\TestCase as FrameworkTestCase;
 
 class ResponseTest extends FrameworkTestCase
