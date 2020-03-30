@@ -31,7 +31,7 @@ class ResponseTest extends FrameworkTestCase
 
     public function testResource()
     {
-        $resource = new class(['fake-resource']) extends Resource {};
+        $resource = new class(['fake-resource']) extends JsonResource {};
         $response = $this->response()->resource($resource);
 
         $this->assertArrayHasKey('status_code', $response->with);
